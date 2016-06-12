@@ -1,0 +1,6 @@
+framework module Pods_FreakingMath2Side {
+  umbrella header "Pods-FreakingMath2Side-umbrella.h"
+
+  export *
+  module * { export * }
+}

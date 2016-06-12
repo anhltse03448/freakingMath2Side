@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2250A52F6B2B03B1A8D6C1E7 /* Pods_FreakingMath2Side.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9244595BA33108E2F80F3C1F /* Pods_FreakingMath2Side.framework */; };
 		360817D81D05DCEC0067743C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360817D71D05DCEC0067743C /* AppDelegate.swift */; };
 		360817DA1D05DCEC0067743C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360817D91D05DCEC0067743C /* ViewController.swift */; };
 		360817DD1D05DCEC0067743C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360817DB1D05DCEC0067743C /* Main.storyboard */; };
 		360817DF1D05DCEC0067743C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360817DE1D05DCEC0067743C /* Assets.xcassets */; };
 		360817E21D05DCEC0067743C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360817E01D05DCEC0067743C /* LaunchScreen.storyboard */; };
+		363FCA421D0DBE7F002F7BD1 /* btModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363FCA411D0DBE7F002F7BD1 /* btModel.swift */; };
+		3642EDE61D09C7050057EDF6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3642EDE51D09C7050057EDF6 /* StartViewController.swift */; };
+		3642EDE91D09C96C0057EDF6 /* logoJS.png in Resources */ = {isa = PBXBuildFile; fileRef = 3642EDE81D09C96C0057EDF6 /* logoJS.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,12 @@
 		360817DE1D05DCEC0067743C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360817E11D05DCEC0067743C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		360817E31D05DCEC0067743C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363FCA411D0DBE7F002F7BD1 /* btModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = btModel.swift; sourceTree = "<group>"; };
+		3642EDE51D09C7050057EDF6 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		3642EDE81D09C96C0057EDF6 /* logoJS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoJS.png; sourceTree = "<group>"; };
+		40585C68B7165AEFA5B38470 /* Pods-FreakingMath2Side.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreakingMath2Side.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreakingMath2Side/Pods-FreakingMath2Side.debug.xcconfig"; sourceTree = "<group>"; };
+		9244595BA33108E2F80F3C1F /* Pods_FreakingMath2Side.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreakingMath2Side.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B17DA88BAC847EAFF0C30A /* Pods-FreakingMath2Side.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreakingMath2Side.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreakingMath2Side/Pods-FreakingMath2Side.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2250A52F6B2B03B1A8D6C1E7 /* Pods_FreakingMath2Side.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				360817D61D05DCEB0067743C /* FreakingMath2Side */,
 				360817D51D05DCEB0067743C /* Products */,
+				DAD900A0CF5498114E58C511 /* Pods */,
+				D5EE5AD1889596B8F8A21381 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,42 @@
 		360817D61D05DCEB0067743C /* FreakingMath2Side */ = {
 			isa = PBXGroup;
 			children = (
+				3642EDE71D09C94A0057EDF6 /* Image */,
 				360817D71D05DCEC0067743C /* AppDelegate.swift */,
 				360817D91D05DCEC0067743C /* ViewController.swift */,
+				363FCA411D0DBE7F002F7BD1 /* btModel.swift */,
 				360817DB1D05DCEC0067743C /* Main.storyboard */,
 				360817DE1D05DCEC0067743C /* Assets.xcassets */,
 				360817E01D05DCEC0067743C /* LaunchScreen.storyboard */,
 				360817E31D05DCEC0067743C /* Info.plist */,
+				3642EDE51D09C7050057EDF6 /* StartViewController.swift */,
 			);
 			path = FreakingMath2Side;
+			sourceTree = "<group>";
+		};
+		3642EDE71D09C94A0057EDF6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3642EDE81D09C96C0057EDF6 /* logoJS.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		D5EE5AD1889596B8F8A21381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9244595BA33108E2F80F3C1F /* Pods_FreakingMath2Side.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD900A0CF5498114E58C511 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40585C68B7165AEFA5B38470 /* Pods-FreakingMath2Side.debug.xcconfig */,
+				C9B17DA88BAC847EAFF0C30A /* Pods-FreakingMath2Side.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 360817E61D05DCEC0067743C /* Build configuration list for PBXNativeTarget "FreakingMath2Side" */;
 			buildPhases = (
+				62E671C90894D8464FEBC13D /* 📦 Check Pods Manifest.lock */,
 				360817D01D05DCEB0067743C /* Sources */,
 				360817D11D05DCEB0067743C /* Frameworks */,
 				360817D21D05DCEB0067743C /* Resources */,
+				AE9E9CA7677BF46B06712DA6 /* 📦 Embed Pods Frameworks */,
+				0DD2A8C651B6F7159C37D8B0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +140,7 @@
 				TargetAttributes = {
 					360817D31D05DCEB0067743C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 77G8PUN44T;
 					};
 				};
 			};
@@ -122,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3642EDE91D09C96C0057EDF6 /* logoJS.png in Resources */,
 				360817E21D05DCEC0067743C /* LaunchScreen.storyboard in Resources */,
 				360817DF1D05DCEC0067743C /* Assets.xcassets in Resources */,
 				360817DD1D05DCEC0067743C /* Main.storyboard in Resources */,
@@ -130,6 +176,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DD2A8C651B6F7159C37D8B0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreakingMath2Side/Pods-FreakingMath2Side-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E671C90894D8464FEBC13D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9E9CA7677BF46B06712DA6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreakingMath2Side/Pods-FreakingMath2Side-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		360817D01D05DCEB0067743C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +231,8 @@
 			files = (
 				360817DA1D05DCEC0067743C /* ViewController.swift in Sources */,
 				360817D81D05DCEC0067743C /* AppDelegate.swift in Sources */,
+				3642EDE61D09C7050057EDF6 /* StartViewController.swift in Sources */,
+				363FCA421D0DBE7F002F7BD1 /* btModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +345,31 @@
 		};
 		360817E71D05DCEC0067743C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40585C68B7165AEFA5B38470 /* Pods-FreakingMath2Side.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FreakingMath2Side/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TuanAnh.FreakingMath2Side;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		360817E81D05DCEC0067743C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B17DA88BAC847EAFF0C30A /* Pods-FreakingMath2Side.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FreakingMath2Side/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TuanAnh.FreakingMath2Side;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +392,7 @@
 				360817E81D05DCEC0067743C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
